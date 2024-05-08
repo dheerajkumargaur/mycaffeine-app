@@ -1,0 +1,83 @@
+/* navbar CSS */
+* {
+  font-family: "PT Sans", sans-serif;
+}
+
+nav > div > h1,
+nav > div > h3 {
+  margin-left: 20px;
+}
+nav {
+  height: 60px;
+  width: 100%;
+  font-size: larger;
+  margin-top: 0;
+  display: flex;
+  justify-content: space-around;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+nav > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 30px;
+  font-size: 25px;
+}
+
+nav > div > div {
+  display: flex;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* .heroImg {
+  width: 100%;
+}
+#signUpContainer {
+  display: flex;
+  width: 35%;
+  height: 60vh;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin: auto;
+  align-content: flex-start;
+  align-items: center;
+  margin-top: 50px;
+  justify-content: center;
+  border: 2px solid #ccc;
+  border-radius: 7px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0);
+}
+#signUpContainer > form {
+  display: flex;
+  width: 90%;
+  height: 50px;
+  flex-wrap: wrap;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+#signUpContainer > form > input {
+  width: 100%;
+  height: 50px;
+  padding-left: 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+#signUpContainer > form > button {
+  height: 50px;
+  width: 150px;
+  border-radius: 5px;
+  align-items: center;
+  margin: auto;
+  justify-content: center;
+}
+#signUpContainer > form > #alregister {
+  margin-top: 100px;
+  align-items: end;
+} */
